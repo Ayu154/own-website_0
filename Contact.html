@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
-<head>   <img src="logo for website.jpg" align="right" height=49px width=70px>
+<head>   <img id="logo" src="logo for website.jpg" align="right" height="49px" width="70px" onclick="window.location.href='index.html';">
+        
     <style>
         body {
             background-color: black;
@@ -98,7 +99,8 @@
     </style>
 </head>
 <body style="background-color: black; color: rgb(255, 255, 255);">
-    <ul>
+    <form action="PHP.php" method="post">
+        <ul>
         <li><a class="tive" href="index.html">Home</a></li>
         <li><a class="tive" href="Pictures.html">Pictures</a></li>
         <li><a class="active" href="Contact.html">Contact</a></li>
